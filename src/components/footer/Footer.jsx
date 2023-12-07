@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
@@ -21,13 +23,13 @@ const Footer = () => {
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
-                        <a target="_blank" href="https://www.instagram.com/palash_chitnavis/"><FaInstagram /></a>
+                        <a target="_blank" style={{textDecoration: "none"}} href="https://www.instagram.com/palash_chitnavis/"><FaInstagram /></a>
                     </span>
                     <span className="icon">
-                        <a target="_blank" href="https://github.com/PalashChitnavis"><FaGithub /></a>
+                        <a target="_blank" style={{textDecoration: "none"}} href="https://github.com/PalashChitnavis"><FaGithub /></a>
                     </span>
                     <span className="icon">
-                        <a target="_blank" href="https://www.linkedin.com/in/palash-chitnavis-83b109254/"><FaLinkedin /></a>
+                        <a target="_blank" style={{textDecoration: "none"}} href="https://www.linkedin.com/in/palash-chitnavis-83b109254/"><FaLinkedin /></a>
                     </span>
                 </div>
                 <div className="infoText gap">Made by Palash Chitnavis</div>
