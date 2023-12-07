@@ -1,4 +1,4 @@
 # Movix Website - 
 
-Live Link - 
+Live Link - https://movix-ptc.netlify.app/
 
