@@ -11,7 +11,7 @@ import Genres from "../../../components/genres/Genres";
 import CircleRating from "../../../components/circleRating/CircleRating";
 import Img from "../../../components/lazyLoadImage/Img.jsx";
 import PosterFallback from "../../../assets/no-poster.png";
-import { PlayIcon } from "../PlayIcon.jsx";
+import  PlayIcon  from "../PlayIcon.jsx";
 const DetailsBanner = ({ video, crew }) => {
     const toHoursAndMinutes = (totalMinutes) => {
         const hours = Math.floor(totalMinutes / 60);
