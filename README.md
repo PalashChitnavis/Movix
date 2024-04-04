@@ -25,7 +25,7 @@ Welcome to **Movix**, a TMDB API-powered movie hub where you can,
 
 ## Build With
 
-**ReactJS**, **SCSS**, **TMDB-API**
+**ReactJS**, **SCSS**, **Redux Toolkit** and **TMDB-API**
 
 ## Screenshots
 
